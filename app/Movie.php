@@ -19,7 +19,8 @@ class Movie extends AbstractModel
         'overview',
         'runtime',
         'logo_path',
-        'genre_id'
+        'genre_id',
+        'streaming'
     ];
 
     const NETFLIX = 'Netflix';
@@ -30,8 +31,8 @@ class Movie extends AbstractModel
     const GOOGLE_PLAY = 'Google Play.';
     const ITUNES = 'iTunes Store';
     const STREAMING = [
-        self::NETFLIX, 
-        self::LOOKE, 
+        self::NETFLIX,
+        self::LOOKE,
         self::PRIME_VIDEO,
         self::TELECINE,
         self::HBO,
